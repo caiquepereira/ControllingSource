@@ -13,10 +13,6 @@ class MasterViewController: UITableViewController {
     var objects = [AnyObject]()
 
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
