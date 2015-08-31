@@ -80,11 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				8F2120D31B94C943001F9E69 /* AppDelegate.swift */,
-				8F2120D51B94C943001F9E69 /* MasterViewController.swift */,
-				8F2120D71B94C943001F9E69 /* DetailViewController.swift */,
-				8F2120D91B94C943001F9E69 /* Main.storyboard */,
-				8F2120DC1B94C943001F9E69 /* Images.xcassets */,
-				8F2120DE1B94C943001F9E69 /* LaunchScreen.xib */,
+				8F4082BB1B94D35D00AA8B64 /* viewControllers */,
+				8F4082BC1B94D3CF00AA8B64 /* resources */,
 				8F2120D11B94C943001F9E69 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -113,6 +110,25 @@
 				8F2120EA1B94C943001F9E69 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F4082BB1B94D35D00AA8B64 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F2120D51B94C943001F9E69 /* MasterViewController.swift */,
+				8F2120D71B94C943001F9E69 /* DetailViewController.swift */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		8F4082BC1B94D3CF00AA8B64 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F2120D91B94C943001F9E69 /* Main.storyboard */,
+				8F2120DC1B94C943001F9E69 /* Images.xcassets */,
+				8F2120DE1B94C943001F9E69 /* LaunchScreen.xib */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +429,7 @@
 				8F2120F11B94C943001F9E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F2120F21B94C943001F9E69 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				8F2120F41B94C943001F9E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
